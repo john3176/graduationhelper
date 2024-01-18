@@ -1,4 +1,4 @@
-package com.helper.graduation.global.domain;
+package com.helper.graduation.global.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;
