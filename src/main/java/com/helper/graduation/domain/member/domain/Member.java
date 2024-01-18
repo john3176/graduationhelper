@@ -35,8 +35,9 @@ public class Member extends BaseEntity implements UserDetails {
     @Column(nullable = false)
     private String salt;
 
-
-
+    @Column(nullable = false)
+    @Enumerated(EnumType.STRING)
+    private AccountRole accountRole;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
