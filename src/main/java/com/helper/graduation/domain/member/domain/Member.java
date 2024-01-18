@@ -1,4 +1,4 @@
-package com.helper.graduation.domain.member.entity;
+package com.helper.graduation.domain.member.domain;
 
 import com.helper.graduation.global.entity.BaseEntity;
 import jakarta.persistence.*;

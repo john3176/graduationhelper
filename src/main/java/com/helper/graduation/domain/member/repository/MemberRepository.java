@@ -1,6 +1,6 @@
 package com.helper.graduation.domain.member.repository;
 
-import com.helper.graduation.domain.member.entity.Member;
+import com.helper.graduation.domain.member.domain.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
