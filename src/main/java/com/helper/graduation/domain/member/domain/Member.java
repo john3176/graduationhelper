@@ -39,6 +39,11 @@ public class Member extends BaseEntity implements UserDetails {
     @Enumerated(EnumType.STRING)
     private AccountRole accountRole;
 
+    @Column(nullable = false)
+    private Long firstMajorId;
+
+    private Long secondMajorId;
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return null;
